@@ -192,12 +192,12 @@ TEST(TableList, can_delete_cell)
 //	TPolinom k(p);
 //	EXPECT_EQ(p.GetPolinom(), k.GetPolinom());
 //}
-////TEST(TPolinom, can_equate)
-////{
-////	TPolinom p("x2*y1*z4+x1*y3*z1");
-////	TPolinom k("x1*y1*z2+x4*y2*z1");
-////	ASSERT_NO_THROW(k = p);
-////}
+//TEST(TPolinom, can_equate)
+//{
+//	TPolinom p("x2*y1*z4+x1*y3*z1");
+//	TPolinom k("x1*y1*z2+x4*y2*z1");
+//	ASSERT_NO_THROW(k = p);
+//}
 //TEST(TPolinom, can_addition)
 //{
 //	TPolinom p("x2*y1*z4+x1*y3*z1");
@@ -219,12 +219,12 @@ TEST(TableList, can_delete_cell)
 //TEST(TPolinom, can_integration)
 //{
 //	TPolinom p("x2*y1*z4+x1*y3*z1");
-//	ASSERT_NO_THROW(p.Integration(p, 'x'));
+//	ASSERT_NO_THROW(p.Integration('x'));
 //}
 //TEST(TPolinom, can_differtiation)
 //{
 //	TPolinom p("x2*y1*z4+x1*y3*z1");
-//	ASSERT_NO_THROW(p.Differentiation(p, 'x'));
+//	ASSERT_NO_THROW(p.Differentiation('x'));
 //}
 //TEST(TPolinom, can_calculate)
 //{
